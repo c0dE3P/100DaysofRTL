@@ -23,4 +23,6 @@ Tools used:
 
 [[DAY 2](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%202)]: 2:1 Multiplexer, 4:1 Multiplexer using 2:1 Multiplexers, 8:1 Multiplexer using 4:1 Multiplexers and 16:1 Multiplexer
 
-[[DAY 3](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%203)]: JK Fliplfop, D Flipflop and T Flipflop
+[[DAY 3](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%203)]: JK Flipflop, D Flipflop and T Flipflop
+
+[[DAY 4](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%204)]: 4-bit Synchronous Loadable Up Counter, 4-bit Synchronous Loadable Modulus-12 Up Counter and 4-bit Binary Up/Down Counter with Synchronous Reset
