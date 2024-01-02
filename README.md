@@ -28,3 +28,5 @@ Tools used:
 [[DAY 4](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%204)]: 4-bit Synchronous Loadable Up Counter, 4-bit Synchronous Loadable Modulus-12 Up Counter and 4-bit Binary Up/Down Counter with Synchronous Reset
 
 [[DAY 5](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%205)]: 16X8 Dual Port Synchronous RAM
+
+[[DAY 6](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%206)]: Bi-directional Buffer and Tri-state Buffer
