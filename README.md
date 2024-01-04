@@ -30,3 +30,9 @@ Tools used:
 [[DAY 5](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%205)]: 16X8 Dual Port Synchronous RAM
 
 [[DAY 6](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%206)]: Bi-directional Buffer and Tri-state Buffer
+
+[[DAY 7](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%207)]: 2-to-4 Decoder and 3-to-8 Decoder
+
+[[DAY 8](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%208)]: Arithmetic and Logic Unit (ALU)
+
+[[DAY 9](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%209)]: 3-to-8 Priority Encoder
