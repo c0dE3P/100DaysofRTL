@@ -5,7 +5,7 @@ This code is purely for educational purposes. If required, this code can be clon
 
 Filename	: pr_encoder.v
 
-Description	: 3:8 Priority Encoder Design
+Description	: 3:8 Priority Encoder Design using Structural model
 
 Author Name	: Deep Kar Sarkar
 
