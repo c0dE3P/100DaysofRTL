@@ -40,3 +40,11 @@ Tools used:
 [[DAY 10](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2010)]: 4-bit Comparator
 
 [[DAY 11](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2011)]: SR Latch using gate level modelling
+
+[[DAY 12](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2012)]: 4-bit Up/Down Counter with Asynchronous Reset
+
+[[DAY 13](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2013)]: User Defined Synchronous Up Counter to count from 01100 to 11100
+
+[[DAY 14](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2014)]: Odd and Even Counter
+
+[[DAY 15](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2015)]: 4-bit Ring Counter using D Flip-flop
