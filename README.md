@@ -21,7 +21,7 @@ Tools used:
 
 [[DAY 01](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2001)]: Half Adder, Full Adder and Ripple Carry Adder.
 
-[[DAY 02](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2002)]: 2:1 Multiplexer, 4:1 Multiplexer using 2:1 Multiplexers, 8:1 Multiplexer using 4:1 Multiplexers and 16:1 Multiplexer
+[[DAY 02](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2002)]: Adder/Subtractor, 2:1 Multiplexer, 4:1 Multiplexer using 2:1 Multiplexers, 8:1 Multiplexer using 4:1 Multiplexers and 16:1 Multiplexer
 
 [[DAY 03](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2003)]: JK Flipflop, D Flipflop and T Flipflop
 
