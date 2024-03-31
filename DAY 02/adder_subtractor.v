@@ -23,8 +23,8 @@
 		output reg [3:0] sum;
 		output reg cy;
 		
-		//Defining the adder/subtractor logic depending 
-		//on the value of c_in
+		//Defining the adder/subtractor logic 
+		//depending on the value of c_in
 		always @(*)
 		begin
 			if(c_in==0)
