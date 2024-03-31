@@ -48,3 +48,5 @@ Tools used:
 [[DAY 14](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2014)]: Odd and Even Counter
 
 [[DAY 15](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2015)]: 4-bit Ring Counter using D Flip-flop
+
+[[DAY 16](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2016)]: 4-bit Even and Odd Parity Generator
