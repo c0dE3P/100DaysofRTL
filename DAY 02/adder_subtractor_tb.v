@@ -6,7 +6,7 @@
 	
 	Filename	: adder_subtractor.v
 	
-	Description	: 4-bit Adder/Subtractor Design
+	Description	: 4-bit Adder/Subtractor Testbench
 	
 	Author Name	: Deep Kar Sarkar
 	
@@ -31,8 +31,8 @@
 		
 		//Process to initialize inputs at 0ns
 		initial begin
-			a=4'b0;
-			b=4'b0;
+			a=4'b0000;
+			b=4'b0000;
 			c_in=0;
 		end 
 		

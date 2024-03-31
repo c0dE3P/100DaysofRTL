@@ -4,6 +4,521 @@ Author name	: Deep
 
 *********************************************************************************************************************************/
 
+// Adder/Subtractor Results
+   0 ns, Input A=0000, B=0000, Carry_In=0, Output Sum=0000, Carry_Out=0
+  10 ns, Input A=0000, B=0000, Carry_In=1, Output Sum=0000, Carry_Out=0
+  20 ns, Input A=0000, B=0001, Carry_In=0, Output Sum=0001, Carry_Out=0
+  30 ns, Input A=0000, B=0001, Carry_In=1, Output Sum=1111, Carry_Out=1
+  40 ns, Input A=0000, B=0010, Carry_In=0, Output Sum=0010, Carry_Out=0
+  50 ns, Input A=0000, B=0010, Carry_In=1, Output Sum=1110, Carry_Out=1
+  60 ns, Input A=0000, B=0011, Carry_In=0, Output Sum=0011, Carry_Out=0
+  70 ns, Input A=0000, B=0011, Carry_In=1, Output Sum=1101, Carry_Out=1
+  80 ns, Input A=0000, B=0100, Carry_In=0, Output Sum=0100, Carry_Out=0
+  90 ns, Input A=0000, B=0100, Carry_In=1, Output Sum=1100, Carry_Out=1
+ 100 ns, Input A=0000, B=0101, Carry_In=0, Output Sum=0101, Carry_Out=0
+ 110 ns, Input A=0000, B=0101, Carry_In=1, Output Sum=1011, Carry_Out=1
+ 120 ns, Input A=0000, B=0110, Carry_In=0, Output Sum=0110, Carry_Out=0
+ 130 ns, Input A=0000, B=0110, Carry_In=1, Output Sum=1010, Carry_Out=1
+ 140 ns, Input A=0000, B=0111, Carry_In=0, Output Sum=0111, Carry_Out=0
+ 150 ns, Input A=0000, B=0111, Carry_In=1, Output Sum=1001, Carry_Out=1
+ 160 ns, Input A=0000, B=1000, Carry_In=0, Output Sum=1000, Carry_Out=0
+ 170 ns, Input A=0000, B=1000, Carry_In=1, Output Sum=1000, Carry_Out=1
+ 180 ns, Input A=0000, B=1001, Carry_In=0, Output Sum=1001, Carry_Out=0
+ 190 ns, Input A=0000, B=1001, Carry_In=1, Output Sum=0111, Carry_Out=1
+ 200 ns, Input A=0000, B=1010, Carry_In=0, Output Sum=1010, Carry_Out=0
+ 210 ns, Input A=0000, B=1010, Carry_In=1, Output Sum=0110, Carry_Out=1
+ 220 ns, Input A=0000, B=1011, Carry_In=0, Output Sum=1011, Carry_Out=0
+ 230 ns, Input A=0000, B=1011, Carry_In=1, Output Sum=0101, Carry_Out=1
+ 240 ns, Input A=0000, B=1100, Carry_In=0, Output Sum=1100, Carry_Out=0
+ 250 ns, Input A=0000, B=1100, Carry_In=1, Output Sum=0100, Carry_Out=1
+ 260 ns, Input A=0000, B=1101, Carry_In=0, Output Sum=1101, Carry_Out=0
+ 270 ns, Input A=0000, B=1101, Carry_In=1, Output Sum=0011, Carry_Out=1
+ 280 ns, Input A=0000, B=1110, Carry_In=0, Output Sum=1110, Carry_Out=0
+ 290 ns, Input A=0000, B=1110, Carry_In=1, Output Sum=0010, Carry_Out=1
+ 300 ns, Input A=0000, B=1111, Carry_In=0, Output Sum=1111, Carry_Out=0
+ 310 ns, Input A=0000, B=1111, Carry_In=1, Output Sum=0001, Carry_Out=1
+ 320 ns, Input A=0001, B=0000, Carry_In=0, Output Sum=0001, Carry_Out=0
+ 330 ns, Input A=0001, B=0000, Carry_In=1, Output Sum=0001, Carry_Out=0
+ 340 ns, Input A=0001, B=0001, Carry_In=0, Output Sum=0010, Carry_Out=0
+ 350 ns, Input A=0001, B=0001, Carry_In=1, Output Sum=0000, Carry_Out=0
+ 360 ns, Input A=0001, B=0010, Carry_In=0, Output Sum=0011, Carry_Out=0
+ 370 ns, Input A=0001, B=0010, Carry_In=1, Output Sum=1111, Carry_Out=1
+ 380 ns, Input A=0001, B=0011, Carry_In=0, Output Sum=0100, Carry_Out=0
+ 390 ns, Input A=0001, B=0011, Carry_In=1, Output Sum=1110, Carry_Out=1
+ 400 ns, Input A=0001, B=0100, Carry_In=0, Output Sum=0101, Carry_Out=0
+ 410 ns, Input A=0001, B=0100, Carry_In=1, Output Sum=1101, Carry_Out=1
+ 420 ns, Input A=0001, B=0101, Carry_In=0, Output Sum=0110, Carry_Out=0
+ 430 ns, Input A=0001, B=0101, Carry_In=1, Output Sum=1100, Carry_Out=1
+ 440 ns, Input A=0001, B=0110, Carry_In=0, Output Sum=0111, Carry_Out=0
+ 450 ns, Input A=0001, B=0110, Carry_In=1, Output Sum=1011, Carry_Out=1
+ 460 ns, Input A=0001, B=0111, Carry_In=0, Output Sum=1000, Carry_Out=0
+ 470 ns, Input A=0001, B=0111, Carry_In=1, Output Sum=1010, Carry_Out=1
+ 480 ns, Input A=0001, B=1000, Carry_In=0, Output Sum=1001, Carry_Out=0
+ 490 ns, Input A=0001, B=1000, Carry_In=1, Output Sum=1001, Carry_Out=1
+ 500 ns, Input A=0001, B=1001, Carry_In=0, Output Sum=1010, Carry_Out=0
+ 510 ns, Input A=0001, B=1001, Carry_In=1, Output Sum=1000, Carry_Out=1
+ 520 ns, Input A=0001, B=1010, Carry_In=0, Output Sum=1011, Carry_Out=0
+ 530 ns, Input A=0001, B=1010, Carry_In=1, Output Sum=0111, Carry_Out=1
+ 540 ns, Input A=0001, B=1011, Carry_In=0, Output Sum=1100, Carry_Out=0
+ 550 ns, Input A=0001, B=1011, Carry_In=1, Output Sum=0110, Carry_Out=1
+ 560 ns, Input A=0001, B=1100, Carry_In=0, Output Sum=1101, Carry_Out=0
+ 570 ns, Input A=0001, B=1100, Carry_In=1, Output Sum=0101, Carry_Out=1
+ 580 ns, Input A=0001, B=1101, Carry_In=0, Output Sum=1110, Carry_Out=0
+ 590 ns, Input A=0001, B=1101, Carry_In=1, Output Sum=0100, Carry_Out=1
+ 600 ns, Input A=0001, B=1110, Carry_In=0, Output Sum=1111, Carry_Out=0
+ 610 ns, Input A=0001, B=1110, Carry_In=1, Output Sum=0011, Carry_Out=1
+ 620 ns, Input A=0001, B=1111, Carry_In=0, Output Sum=0000, Carry_Out=1
+ 630 ns, Input A=0001, B=1111, Carry_In=1, Output Sum=0010, Carry_Out=1
+ 640 ns, Input A=0010, B=0000, Carry_In=0, Output Sum=0010, Carry_Out=0
+ 650 ns, Input A=0010, B=0000, Carry_In=1, Output Sum=0010, Carry_Out=0
+ 660 ns, Input A=0010, B=0001, Carry_In=0, Output Sum=0011, Carry_Out=0
+ 670 ns, Input A=0010, B=0001, Carry_In=1, Output Sum=0001, Carry_Out=0
+ 680 ns, Input A=0010, B=0010, Carry_In=0, Output Sum=0100, Carry_Out=0
+ 690 ns, Input A=0010, B=0010, Carry_In=1, Output Sum=0000, Carry_Out=0
+ 700 ns, Input A=0010, B=0011, Carry_In=0, Output Sum=0101, Carry_Out=0
+ 710 ns, Input A=0010, B=0011, Carry_In=1, Output Sum=1111, Carry_Out=1
+ 720 ns, Input A=0010, B=0100, Carry_In=0, Output Sum=0110, Carry_Out=0
+ 730 ns, Input A=0010, B=0100, Carry_In=1, Output Sum=1110, Carry_Out=1
+ 740 ns, Input A=0010, B=0101, Carry_In=0, Output Sum=0111, Carry_Out=0
+ 750 ns, Input A=0010, B=0101, Carry_In=1, Output Sum=1101, Carry_Out=1
+ 760 ns, Input A=0010, B=0110, Carry_In=0, Output Sum=1000, Carry_Out=0
+ 770 ns, Input A=0010, B=0110, Carry_In=1, Output Sum=1100, Carry_Out=1
+ 780 ns, Input A=0010, B=0111, Carry_In=0, Output Sum=1001, Carry_Out=0
+ 790 ns, Input A=0010, B=0111, Carry_In=1, Output Sum=1011, Carry_Out=1
+ 800 ns, Input A=0010, B=1000, Carry_In=0, Output Sum=1010, Carry_Out=0
+ 810 ns, Input A=0010, B=1000, Carry_In=1, Output Sum=1010, Carry_Out=1
+ 820 ns, Input A=0010, B=1001, Carry_In=0, Output Sum=1011, Carry_Out=0
+ 830 ns, Input A=0010, B=1001, Carry_In=1, Output Sum=1001, Carry_Out=1
+ 840 ns, Input A=0010, B=1010, Carry_In=0, Output Sum=1100, Carry_Out=0
+ 850 ns, Input A=0010, B=1010, Carry_In=1, Output Sum=1000, Carry_Out=1
+ 860 ns, Input A=0010, B=1011, Carry_In=0, Output Sum=1101, Carry_Out=0
+ 870 ns, Input A=0010, B=1011, Carry_In=1, Output Sum=0111, Carry_Out=1
+ 880 ns, Input A=0010, B=1100, Carry_In=0, Output Sum=1110, Carry_Out=0
+ 890 ns, Input A=0010, B=1100, Carry_In=1, Output Sum=0110, Carry_Out=1
+ 900 ns, Input A=0010, B=1101, Carry_In=0, Output Sum=1111, Carry_Out=0
+ 910 ns, Input A=0010, B=1101, Carry_In=1, Output Sum=0101, Carry_Out=1
+ 920 ns, Input A=0010, B=1110, Carry_In=0, Output Sum=0000, Carry_Out=1
+ 930 ns, Input A=0010, B=1110, Carry_In=1, Output Sum=0100, Carry_Out=1
+ 940 ns, Input A=0010, B=1111, Carry_In=0, Output Sum=0001, Carry_Out=1
+ 950 ns, Input A=0010, B=1111, Carry_In=1, Output Sum=0011, Carry_Out=1
+ 960 ns, Input A=0011, B=0000, Carry_In=0, Output Sum=0011, Carry_Out=0
+ 970 ns, Input A=0011, B=0000, Carry_In=1, Output Sum=0011, Carry_Out=0
+ 980 ns, Input A=0011, B=0001, Carry_In=0, Output Sum=0100, Carry_Out=0
+ 990 ns, Input A=0011, B=0001, Carry_In=1, Output Sum=0010, Carry_Out=0
+1000 ns, Input A=0011, B=0010, Carry_In=0, Output Sum=0101, Carry_Out=0
+1010 ns, Input A=0011, B=0010, Carry_In=1, Output Sum=0001, Carry_Out=0
+1020 ns, Input A=0011, B=0011, Carry_In=0, Output Sum=0110, Carry_Out=0
+1030 ns, Input A=0011, B=0011, Carry_In=1, Output Sum=0000, Carry_Out=0
+1040 ns, Input A=0011, B=0100, Carry_In=0, Output Sum=0111, Carry_Out=0
+1050 ns, Input A=0011, B=0100, Carry_In=1, Output Sum=1111, Carry_Out=1
+1060 ns, Input A=0011, B=0101, Carry_In=0, Output Sum=1000, Carry_Out=0
+1070 ns, Input A=0011, B=0101, Carry_In=1, Output Sum=1110, Carry_Out=1
+1080 ns, Input A=0011, B=0110, Carry_In=0, Output Sum=1001, Carry_Out=0
+1090 ns, Input A=0011, B=0110, Carry_In=1, Output Sum=1101, Carry_Out=1
+1100 ns, Input A=0011, B=0111, Carry_In=0, Output Sum=1010, Carry_Out=0
+1110 ns, Input A=0011, B=0111, Carry_In=1, Output Sum=1100, Carry_Out=1
+1120 ns, Input A=0011, B=1000, Carry_In=0, Output Sum=1011, Carry_Out=0
+1130 ns, Input A=0011, B=1000, Carry_In=1, Output Sum=1011, Carry_Out=1
+1140 ns, Input A=0011, B=1001, Carry_In=0, Output Sum=1100, Carry_Out=0
+1150 ns, Input A=0011, B=1001, Carry_In=1, Output Sum=1010, Carry_Out=1
+1160 ns, Input A=0011, B=1010, Carry_In=0, Output Sum=1101, Carry_Out=0
+1170 ns, Input A=0011, B=1010, Carry_In=1, Output Sum=1001, Carry_Out=1
+1180 ns, Input A=0011, B=1011, Carry_In=0, Output Sum=1110, Carry_Out=0
+1190 ns, Input A=0011, B=1011, Carry_In=1, Output Sum=1000, Carry_Out=1
+1200 ns, Input A=0011, B=1100, Carry_In=0, Output Sum=1111, Carry_Out=0
+1210 ns, Input A=0011, B=1100, Carry_In=1, Output Sum=0111, Carry_Out=1
+1220 ns, Input A=0011, B=1101, Carry_In=0, Output Sum=0000, Carry_Out=1
+1230 ns, Input A=0011, B=1101, Carry_In=1, Output Sum=0110, Carry_Out=1
+1240 ns, Input A=0011, B=1110, Carry_In=0, Output Sum=0001, Carry_Out=1
+1250 ns, Input A=0011, B=1110, Carry_In=1, Output Sum=0101, Carry_Out=1
+1260 ns, Input A=0011, B=1111, Carry_In=0, Output Sum=0010, Carry_Out=1
+1270 ns, Input A=0011, B=1111, Carry_In=1, Output Sum=0100, Carry_Out=1
+1280 ns, Input A=0100, B=0000, Carry_In=0, Output Sum=0100, Carry_Out=0
+1290 ns, Input A=0100, B=0000, Carry_In=1, Output Sum=0100, Carry_Out=0
+1300 ns, Input A=0100, B=0001, Carry_In=0, Output Sum=0101, Carry_Out=0
+1310 ns, Input A=0100, B=0001, Carry_In=1, Output Sum=0011, Carry_Out=0
+1320 ns, Input A=0100, B=0010, Carry_In=0, Output Sum=0110, Carry_Out=0
+1330 ns, Input A=0100, B=0010, Carry_In=1, Output Sum=0010, Carry_Out=0
+1340 ns, Input A=0100, B=0011, Carry_In=0, Output Sum=0111, Carry_Out=0
+1350 ns, Input A=0100, B=0011, Carry_In=1, Output Sum=0001, Carry_Out=0
+1360 ns, Input A=0100, B=0100, Carry_In=0, Output Sum=1000, Carry_Out=0
+1370 ns, Input A=0100, B=0100, Carry_In=1, Output Sum=0000, Carry_Out=0
+1380 ns, Input A=0100, B=0101, Carry_In=0, Output Sum=1001, Carry_Out=0
+1390 ns, Input A=0100, B=0101, Carry_In=1, Output Sum=1111, Carry_Out=1
+1400 ns, Input A=0100, B=0110, Carry_In=0, Output Sum=1010, Carry_Out=0
+1410 ns, Input A=0100, B=0110, Carry_In=1, Output Sum=1110, Carry_Out=1
+1420 ns, Input A=0100, B=0111, Carry_In=0, Output Sum=1011, Carry_Out=0
+1430 ns, Input A=0100, B=0111, Carry_In=1, Output Sum=1101, Carry_Out=1
+1440 ns, Input A=0100, B=1000, Carry_In=0, Output Sum=1100, Carry_Out=0
+1450 ns, Input A=0100, B=1000, Carry_In=1, Output Sum=1100, Carry_Out=1
+1460 ns, Input A=0100, B=1001, Carry_In=0, Output Sum=1101, Carry_Out=0
+1470 ns, Input A=0100, B=1001, Carry_In=1, Output Sum=1011, Carry_Out=1
+1480 ns, Input A=0100, B=1010, Carry_In=0, Output Sum=1110, Carry_Out=0
+1490 ns, Input A=0100, B=1010, Carry_In=1, Output Sum=1010, Carry_Out=1
+1500 ns, Input A=0100, B=1011, Carry_In=0, Output Sum=1111, Carry_Out=0
+1510 ns, Input A=0100, B=1011, Carry_In=1, Output Sum=1001, Carry_Out=1
+1520 ns, Input A=0100, B=1100, Carry_In=0, Output Sum=0000, Carry_Out=1
+1530 ns, Input A=0100, B=1100, Carry_In=1, Output Sum=1000, Carry_Out=1
+1540 ns, Input A=0100, B=1101, Carry_In=0, Output Sum=0001, Carry_Out=1
+1550 ns, Input A=0100, B=1101, Carry_In=1, Output Sum=0111, Carry_Out=1
+1560 ns, Input A=0100, B=1110, Carry_In=0, Output Sum=0010, Carry_Out=1
+1570 ns, Input A=0100, B=1110, Carry_In=1, Output Sum=0110, Carry_Out=1
+1580 ns, Input A=0100, B=1111, Carry_In=0, Output Sum=0011, Carry_Out=1
+1590 ns, Input A=0100, B=1111, Carry_In=1, Output Sum=0101, Carry_Out=1
+1600 ns, Input A=0101, B=0000, Carry_In=0, Output Sum=0101, Carry_Out=0
+1610 ns, Input A=0101, B=0000, Carry_In=1, Output Sum=0101, Carry_Out=0
+1620 ns, Input A=0101, B=0001, Carry_In=0, Output Sum=0110, Carry_Out=0
+1630 ns, Input A=0101, B=0001, Carry_In=1, Output Sum=0100, Carry_Out=0
+1640 ns, Input A=0101, B=0010, Carry_In=0, Output Sum=0111, Carry_Out=0
+1650 ns, Input A=0101, B=0010, Carry_In=1, Output Sum=0011, Carry_Out=0
+1660 ns, Input A=0101, B=0011, Carry_In=0, Output Sum=1000, Carry_Out=0
+1670 ns, Input A=0101, B=0011, Carry_In=1, Output Sum=0010, Carry_Out=0
+1680 ns, Input A=0101, B=0100, Carry_In=0, Output Sum=1001, Carry_Out=0
+1690 ns, Input A=0101, B=0100, Carry_In=1, Output Sum=0001, Carry_Out=0
+1700 ns, Input A=0101, B=0101, Carry_In=0, Output Sum=1010, Carry_Out=0
+1710 ns, Input A=0101, B=0101, Carry_In=1, Output Sum=0000, Carry_Out=0
+1720 ns, Input A=0101, B=0110, Carry_In=0, Output Sum=1011, Carry_Out=0
+1730 ns, Input A=0101, B=0110, Carry_In=1, Output Sum=1111, Carry_Out=1
+1740 ns, Input A=0101, B=0111, Carry_In=0, Output Sum=1100, Carry_Out=0
+1750 ns, Input A=0101, B=0111, Carry_In=1, Output Sum=1110, Carry_Out=1
+1760 ns, Input A=0101, B=1000, Carry_In=0, Output Sum=1101, Carry_Out=0
+1770 ns, Input A=0101, B=1000, Carry_In=1, Output Sum=1101, Carry_Out=1
+1780 ns, Input A=0101, B=1001, Carry_In=0, Output Sum=1110, Carry_Out=0
+1790 ns, Input A=0101, B=1001, Carry_In=1, Output Sum=1100, Carry_Out=1
+1800 ns, Input A=0101, B=1010, Carry_In=0, Output Sum=1111, Carry_Out=0
+1810 ns, Input A=0101, B=1010, Carry_In=1, Output Sum=1011, Carry_Out=1
+1820 ns, Input A=0101, B=1011, Carry_In=0, Output Sum=0000, Carry_Out=1
+1830 ns, Input A=0101, B=1011, Carry_In=1, Output Sum=1010, Carry_Out=1
+1840 ns, Input A=0101, B=1100, Carry_In=0, Output Sum=0001, Carry_Out=1
+1850 ns, Input A=0101, B=1100, Carry_In=1, Output Sum=1001, Carry_Out=1
+1860 ns, Input A=0101, B=1101, Carry_In=0, Output Sum=0010, Carry_Out=1
+1870 ns, Input A=0101, B=1101, Carry_In=1, Output Sum=1000, Carry_Out=1
+1880 ns, Input A=0101, B=1110, Carry_In=0, Output Sum=0011, Carry_Out=1
+1890 ns, Input A=0101, B=1110, Carry_In=1, Output Sum=0111, Carry_Out=1
+1900 ns, Input A=0101, B=1111, Carry_In=0, Output Sum=0100, Carry_Out=1
+1910 ns, Input A=0101, B=1111, Carry_In=1, Output Sum=0110, Carry_Out=1
+1920 ns, Input A=0110, B=0000, Carry_In=0, Output Sum=0110, Carry_Out=0
+1930 ns, Input A=0110, B=0000, Carry_In=1, Output Sum=0110, Carry_Out=0
+1940 ns, Input A=0110, B=0001, Carry_In=0, Output Sum=0111, Carry_Out=0
+1950 ns, Input A=0110, B=0001, Carry_In=1, Output Sum=0101, Carry_Out=0
+1960 ns, Input A=0110, B=0010, Carry_In=0, Output Sum=1000, Carry_Out=0
+1970 ns, Input A=0110, B=0010, Carry_In=1, Output Sum=0100, Carry_Out=0
+1980 ns, Input A=0110, B=0011, Carry_In=0, Output Sum=1001, Carry_Out=0
+1990 ns, Input A=0110, B=0011, Carry_In=1, Output Sum=0011, Carry_Out=0
+2000 ns, Input A=0110, B=0100, Carry_In=0, Output Sum=1010, Carry_Out=0
+2010 ns, Input A=0110, B=0100, Carry_In=1, Output Sum=0010, Carry_Out=0
+2020 ns, Input A=0110, B=0101, Carry_In=0, Output Sum=1011, Carry_Out=0
+2030 ns, Input A=0110, B=0101, Carry_In=1, Output Sum=0001, Carry_Out=0
+2040 ns, Input A=0110, B=0110, Carry_In=0, Output Sum=1100, Carry_Out=0
+2050 ns, Input A=0110, B=0110, Carry_In=1, Output Sum=0000, Carry_Out=0
+2060 ns, Input A=0110, B=0111, Carry_In=0, Output Sum=1101, Carry_Out=0
+2070 ns, Input A=0110, B=0111, Carry_In=1, Output Sum=1111, Carry_Out=1
+2080 ns, Input A=0110, B=1000, Carry_In=0, Output Sum=1110, Carry_Out=0
+2090 ns, Input A=0110, B=1000, Carry_In=1, Output Sum=1110, Carry_Out=1
+2100 ns, Input A=0110, B=1001, Carry_In=0, Output Sum=1111, Carry_Out=0
+2110 ns, Input A=0110, B=1001, Carry_In=1, Output Sum=1101, Carry_Out=1
+2120 ns, Input A=0110, B=1010, Carry_In=0, Output Sum=0000, Carry_Out=1
+2130 ns, Input A=0110, B=1010, Carry_In=1, Output Sum=1100, Carry_Out=1
+2140 ns, Input A=0110, B=1011, Carry_In=0, Output Sum=0001, Carry_Out=1
+2150 ns, Input A=0110, B=1011, Carry_In=1, Output Sum=1011, Carry_Out=1
+2160 ns, Input A=0110, B=1100, Carry_In=0, Output Sum=0010, Carry_Out=1
+2170 ns, Input A=0110, B=1100, Carry_In=1, Output Sum=1010, Carry_Out=1
+2180 ns, Input A=0110, B=1101, Carry_In=0, Output Sum=0011, Carry_Out=1
+2190 ns, Input A=0110, B=1101, Carry_In=1, Output Sum=1001, Carry_Out=1
+2200 ns, Input A=0110, B=1110, Carry_In=0, Output Sum=0100, Carry_Out=1
+2210 ns, Input A=0110, B=1110, Carry_In=1, Output Sum=1000, Carry_Out=1
+2220 ns, Input A=0110, B=1111, Carry_In=0, Output Sum=0101, Carry_Out=1
+2230 ns, Input A=0110, B=1111, Carry_In=1, Output Sum=0111, Carry_Out=1
+2240 ns, Input A=0111, B=0000, Carry_In=0, Output Sum=0111, Carry_Out=0
+2250 ns, Input A=0111, B=0000, Carry_In=1, Output Sum=0111, Carry_Out=0
+2260 ns, Input A=0111, B=0001, Carry_In=0, Output Sum=1000, Carry_Out=0
+2270 ns, Input A=0111, B=0001, Carry_In=1, Output Sum=0110, Carry_Out=0
+2280 ns, Input A=0111, B=0010, Carry_In=0, Output Sum=1001, Carry_Out=0
+2290 ns, Input A=0111, B=0010, Carry_In=1, Output Sum=0101, Carry_Out=0
+2300 ns, Input A=0111, B=0011, Carry_In=0, Output Sum=1010, Carry_Out=0
+2310 ns, Input A=0111, B=0011, Carry_In=1, Output Sum=0100, Carry_Out=0
+2320 ns, Input A=0111, B=0100, Carry_In=0, Output Sum=1011, Carry_Out=0
+2330 ns, Input A=0111, B=0100, Carry_In=1, Output Sum=0011, Carry_Out=0
+2340 ns, Input A=0111, B=0101, Carry_In=0, Output Sum=1100, Carry_Out=0
+2350 ns, Input A=0111, B=0101, Carry_In=1, Output Sum=0010, Carry_Out=0
+2360 ns, Input A=0111, B=0110, Carry_In=0, Output Sum=1101, Carry_Out=0
+2370 ns, Input A=0111, B=0110, Carry_In=1, Output Sum=0001, Carry_Out=0
+2380 ns, Input A=0111, B=0111, Carry_In=0, Output Sum=1110, Carry_Out=0
+2390 ns, Input A=0111, B=0111, Carry_In=1, Output Sum=0000, Carry_Out=0
+2400 ns, Input A=0111, B=1000, Carry_In=0, Output Sum=1111, Carry_Out=0
+2410 ns, Input A=0111, B=1000, Carry_In=1, Output Sum=1111, Carry_Out=1
+2420 ns, Input A=0111, B=1001, Carry_In=0, Output Sum=0000, Carry_Out=1
+2430 ns, Input A=0111, B=1001, Carry_In=1, Output Sum=1110, Carry_Out=1
+2440 ns, Input A=0111, B=1010, Carry_In=0, Output Sum=0001, Carry_Out=1
+2450 ns, Input A=0111, B=1010, Carry_In=1, Output Sum=1101, Carry_Out=1
+2460 ns, Input A=0111, B=1011, Carry_In=0, Output Sum=0010, Carry_Out=1
+2470 ns, Input A=0111, B=1011, Carry_In=1, Output Sum=1100, Carry_Out=1
+2480 ns, Input A=0111, B=1100, Carry_In=0, Output Sum=0011, Carry_Out=1
+2490 ns, Input A=0111, B=1100, Carry_In=1, Output Sum=1011, Carry_Out=1
+2500 ns, Input A=0111, B=1101, Carry_In=0, Output Sum=0100, Carry_Out=1
+2510 ns, Input A=0111, B=1101, Carry_In=1, Output Sum=1010, Carry_Out=1
+2520 ns, Input A=0111, B=1110, Carry_In=0, Output Sum=0101, Carry_Out=1
+2530 ns, Input A=0111, B=1110, Carry_In=1, Output Sum=1001, Carry_Out=1
+2540 ns, Input A=0111, B=1111, Carry_In=0, Output Sum=0110, Carry_Out=1
+2550 ns, Input A=0111, B=1111, Carry_In=1, Output Sum=1000, Carry_Out=1
+2560 ns, Input A=1000, B=0000, Carry_In=0, Output Sum=1000, Carry_Out=0
+2570 ns, Input A=1000, B=0000, Carry_In=1, Output Sum=1000, Carry_Out=0
+2580 ns, Input A=1000, B=0001, Carry_In=0, Output Sum=1001, Carry_Out=0
+2590 ns, Input A=1000, B=0001, Carry_In=1, Output Sum=0111, Carry_Out=0
+2600 ns, Input A=1000, B=0010, Carry_In=0, Output Sum=1010, Carry_Out=0
+2610 ns, Input A=1000, B=0010, Carry_In=1, Output Sum=0110, Carry_Out=0
+2620 ns, Input A=1000, B=0011, Carry_In=0, Output Sum=1011, Carry_Out=0
+2630 ns, Input A=1000, B=0011, Carry_In=1, Output Sum=0101, Carry_Out=0
+2640 ns, Input A=1000, B=0100, Carry_In=0, Output Sum=1100, Carry_Out=0
+2650 ns, Input A=1000, B=0100, Carry_In=1, Output Sum=0100, Carry_Out=0
+2660 ns, Input A=1000, B=0101, Carry_In=0, Output Sum=1101, Carry_Out=0
+2670 ns, Input A=1000, B=0101, Carry_In=1, Output Sum=0011, Carry_Out=0
+2680 ns, Input A=1000, B=0110, Carry_In=0, Output Sum=1110, Carry_Out=0
+2690 ns, Input A=1000, B=0110, Carry_In=1, Output Sum=0010, Carry_Out=0
+2700 ns, Input A=1000, B=0111, Carry_In=0, Output Sum=1111, Carry_Out=0
+2710 ns, Input A=1000, B=0111, Carry_In=1, Output Sum=0001, Carry_Out=0
+2720 ns, Input A=1000, B=1000, Carry_In=0, Output Sum=0000, Carry_Out=1
+2730 ns, Input A=1000, B=1000, Carry_In=1, Output Sum=0000, Carry_Out=0
+2740 ns, Input A=1000, B=1001, Carry_In=0, Output Sum=0001, Carry_Out=1
+2750 ns, Input A=1000, B=1001, Carry_In=1, Output Sum=1111, Carry_Out=1
+2760 ns, Input A=1000, B=1010, Carry_In=0, Output Sum=0010, Carry_Out=1
+2770 ns, Input A=1000, B=1010, Carry_In=1, Output Sum=1110, Carry_Out=1
+2780 ns, Input A=1000, B=1011, Carry_In=0, Output Sum=0011, Carry_Out=1
+2790 ns, Input A=1000, B=1011, Carry_In=1, Output Sum=1101, Carry_Out=1
+2800 ns, Input A=1000, B=1100, Carry_In=0, Output Sum=0100, Carry_Out=1
+2810 ns, Input A=1000, B=1100, Carry_In=1, Output Sum=1100, Carry_Out=1
+2820 ns, Input A=1000, B=1101, Carry_In=0, Output Sum=0101, Carry_Out=1
+2830 ns, Input A=1000, B=1101, Carry_In=1, Output Sum=1011, Carry_Out=1
+2840 ns, Input A=1000, B=1110, Carry_In=0, Output Sum=0110, Carry_Out=1
+2850 ns, Input A=1000, B=1110, Carry_In=1, Output Sum=1010, Carry_Out=1
+2860 ns, Input A=1000, B=1111, Carry_In=0, Output Sum=0111, Carry_Out=1
+2870 ns, Input A=1000, B=1111, Carry_In=1, Output Sum=1001, Carry_Out=1
+2880 ns, Input A=1001, B=0000, Carry_In=0, Output Sum=1001, Carry_Out=0
+2890 ns, Input A=1001, B=0000, Carry_In=1, Output Sum=1001, Carry_Out=0
+2900 ns, Input A=1001, B=0001, Carry_In=0, Output Sum=1010, Carry_Out=0
+2910 ns, Input A=1001, B=0001, Carry_In=1, Output Sum=1000, Carry_Out=0
+2920 ns, Input A=1001, B=0010, Carry_In=0, Output Sum=1011, Carry_Out=0
+2930 ns, Input A=1001, B=0010, Carry_In=1, Output Sum=0111, Carry_Out=0
+2940 ns, Input A=1001, B=0011, Carry_In=0, Output Sum=1100, Carry_Out=0
+2950 ns, Input A=1001, B=0011, Carry_In=1, Output Sum=0110, Carry_Out=0
+2960 ns, Input A=1001, B=0100, Carry_In=0, Output Sum=1101, Carry_Out=0
+2970 ns, Input A=1001, B=0100, Carry_In=1, Output Sum=0101, Carry_Out=0
+2980 ns, Input A=1001, B=0101, Carry_In=0, Output Sum=1110, Carry_Out=0
+2990 ns, Input A=1001, B=0101, Carry_In=1, Output Sum=0100, Carry_Out=0
+3000 ns, Input A=1001, B=0110, Carry_In=0, Output Sum=1111, Carry_Out=0
+3010 ns, Input A=1001, B=0110, Carry_In=1, Output Sum=0011, Carry_Out=0
+3020 ns, Input A=1001, B=0111, Carry_In=0, Output Sum=0000, Carry_Out=1
+3030 ns, Input A=1001, B=0111, Carry_In=1, Output Sum=0010, Carry_Out=0
+3040 ns, Input A=1001, B=1000, Carry_In=0, Output Sum=0001, Carry_Out=1
+3050 ns, Input A=1001, B=1000, Carry_In=1, Output Sum=0001, Carry_Out=0
+3060 ns, Input A=1001, B=1001, Carry_In=0, Output Sum=0010, Carry_Out=1
+3070 ns, Input A=1001, B=1001, Carry_In=1, Output Sum=0000, Carry_Out=0
+3080 ns, Input A=1001, B=1010, Carry_In=0, Output Sum=0011, Carry_Out=1
+3090 ns, Input A=1001, B=1010, Carry_In=1, Output Sum=1111, Carry_Out=1
+3100 ns, Input A=1001, B=1011, Carry_In=0, Output Sum=0100, Carry_Out=1
+3110 ns, Input A=1001, B=1011, Carry_In=1, Output Sum=1110, Carry_Out=1
+3120 ns, Input A=1001, B=1100, Carry_In=0, Output Sum=0101, Carry_Out=1
+3130 ns, Input A=1001, B=1100, Carry_In=1, Output Sum=1101, Carry_Out=1
+3140 ns, Input A=1001, B=1101, Carry_In=0, Output Sum=0110, Carry_Out=1
+3150 ns, Input A=1001, B=1101, Carry_In=1, Output Sum=1100, Carry_Out=1
+3160 ns, Input A=1001, B=1110, Carry_In=0, Output Sum=0111, Carry_Out=1
+3170 ns, Input A=1001, B=1110, Carry_In=1, Output Sum=1011, Carry_Out=1
+3180 ns, Input A=1001, B=1111, Carry_In=0, Output Sum=1000, Carry_Out=1
+3190 ns, Input A=1001, B=1111, Carry_In=1, Output Sum=1010, Carry_Out=1
+3200 ns, Input A=1010, B=0000, Carry_In=0, Output Sum=1010, Carry_Out=0
+3210 ns, Input A=1010, B=0000, Carry_In=1, Output Sum=1010, Carry_Out=0
+3220 ns, Input A=1010, B=0001, Carry_In=0, Output Sum=1011, Carry_Out=0
+3230 ns, Input A=1010, B=0001, Carry_In=1, Output Sum=1001, Carry_Out=0
+3240 ns, Input A=1010, B=0010, Carry_In=0, Output Sum=1100, Carry_Out=0
+3250 ns, Input A=1010, B=0010, Carry_In=1, Output Sum=1000, Carry_Out=0
+3260 ns, Input A=1010, B=0011, Carry_In=0, Output Sum=1101, Carry_Out=0
+3270 ns, Input A=1010, B=0011, Carry_In=1, Output Sum=0111, Carry_Out=0
+3280 ns, Input A=1010, B=0100, Carry_In=0, Output Sum=1110, Carry_Out=0
+3290 ns, Input A=1010, B=0100, Carry_In=1, Output Sum=0110, Carry_Out=0
+3300 ns, Input A=1010, B=0101, Carry_In=0, Output Sum=1111, Carry_Out=0
+3310 ns, Input A=1010, B=0101, Carry_In=1, Output Sum=0101, Carry_Out=0
+3320 ns, Input A=1010, B=0110, Carry_In=0, Output Sum=0000, Carry_Out=1
+3330 ns, Input A=1010, B=0110, Carry_In=1, Output Sum=0100, Carry_Out=0
+3340 ns, Input A=1010, B=0111, Carry_In=0, Output Sum=0001, Carry_Out=1
+3350 ns, Input A=1010, B=0111, Carry_In=1, Output Sum=0011, Carry_Out=0
+3360 ns, Input A=1010, B=1000, Carry_In=0, Output Sum=0010, Carry_Out=1
+3370 ns, Input A=1010, B=1000, Carry_In=1, Output Sum=0010, Carry_Out=0
+3380 ns, Input A=1010, B=1001, Carry_In=0, Output Sum=0011, Carry_Out=1
+3390 ns, Input A=1010, B=1001, Carry_In=1, Output Sum=0001, Carry_Out=0
+3400 ns, Input A=1010, B=1010, Carry_In=0, Output Sum=0100, Carry_Out=1
+3410 ns, Input A=1010, B=1010, Carry_In=1, Output Sum=0000, Carry_Out=0
+3420 ns, Input A=1010, B=1011, Carry_In=0, Output Sum=0101, Carry_Out=1
+3430 ns, Input A=1010, B=1011, Carry_In=1, Output Sum=1111, Carry_Out=1
+3440 ns, Input A=1010, B=1100, Carry_In=0, Output Sum=0110, Carry_Out=1
+3450 ns, Input A=1010, B=1100, Carry_In=1, Output Sum=1110, Carry_Out=1
+3460 ns, Input A=1010, B=1101, Carry_In=0, Output Sum=0111, Carry_Out=1
+3470 ns, Input A=1010, B=1101, Carry_In=1, Output Sum=1101, Carry_Out=1
+3480 ns, Input A=1010, B=1110, Carry_In=0, Output Sum=1000, Carry_Out=1
+3490 ns, Input A=1010, B=1110, Carry_In=1, Output Sum=1100, Carry_Out=1
+3500 ns, Input A=1010, B=1111, Carry_In=0, Output Sum=1001, Carry_Out=1
+3510 ns, Input A=1010, B=1111, Carry_In=1, Output Sum=1011, Carry_Out=1
+3520 ns, Input A=1011, B=0000, Carry_In=0, Output Sum=1011, Carry_Out=0
+3530 ns, Input A=1011, B=0000, Carry_In=1, Output Sum=1011, Carry_Out=0
+3540 ns, Input A=1011, B=0001, Carry_In=0, Output Sum=1100, Carry_Out=0
+3550 ns, Input A=1011, B=0001, Carry_In=1, Output Sum=1010, Carry_Out=0
+3560 ns, Input A=1011, B=0010, Carry_In=0, Output Sum=1101, Carry_Out=0
+3570 ns, Input A=1011, B=0010, Carry_In=1, Output Sum=1001, Carry_Out=0
+3580 ns, Input A=1011, B=0011, Carry_In=0, Output Sum=1110, Carry_Out=0
+3590 ns, Input A=1011, B=0011, Carry_In=1, Output Sum=1000, Carry_Out=0
+3600 ns, Input A=1011, B=0100, Carry_In=0, Output Sum=1111, Carry_Out=0
+3610 ns, Input A=1011, B=0100, Carry_In=1, Output Sum=0111, Carry_Out=0
+3620 ns, Input A=1011, B=0101, Carry_In=0, Output Sum=0000, Carry_Out=1
+3630 ns, Input A=1011, B=0101, Carry_In=1, Output Sum=0110, Carry_Out=0
+3640 ns, Input A=1011, B=0110, Carry_In=0, Output Sum=0001, Carry_Out=1
+3650 ns, Input A=1011, B=0110, Carry_In=1, Output Sum=0101, Carry_Out=0
+3660 ns, Input A=1011, B=0111, Carry_In=0, Output Sum=0010, Carry_Out=1
+3670 ns, Input A=1011, B=0111, Carry_In=1, Output Sum=0100, Carry_Out=0
+3680 ns, Input A=1011, B=1000, Carry_In=0, Output Sum=0011, Carry_Out=1
+3690 ns, Input A=1011, B=1000, Carry_In=1, Output Sum=0011, Carry_Out=0
+3700 ns, Input A=1011, B=1001, Carry_In=0, Output Sum=0100, Carry_Out=1
+3710 ns, Input A=1011, B=1001, Carry_In=1, Output Sum=0010, Carry_Out=0
+3720 ns, Input A=1011, B=1010, Carry_In=0, Output Sum=0101, Carry_Out=1
+3730 ns, Input A=1011, B=1010, Carry_In=1, Output Sum=0001, Carry_Out=0
+3740 ns, Input A=1011, B=1011, Carry_In=0, Output Sum=0110, Carry_Out=1
+3750 ns, Input A=1011, B=1011, Carry_In=1, Output Sum=0000, Carry_Out=0
+3760 ns, Input A=1011, B=1100, Carry_In=0, Output Sum=0111, Carry_Out=1
+3770 ns, Input A=1011, B=1100, Carry_In=1, Output Sum=1111, Carry_Out=1
+3780 ns, Input A=1011, B=1101, Carry_In=0, Output Sum=1000, Carry_Out=1
+3790 ns, Input A=1011, B=1101, Carry_In=1, Output Sum=1110, Carry_Out=1
+3800 ns, Input A=1011, B=1110, Carry_In=0, Output Sum=1001, Carry_Out=1
+3810 ns, Input A=1011, B=1110, Carry_In=1, Output Sum=1101, Carry_Out=1
+3820 ns, Input A=1011, B=1111, Carry_In=0, Output Sum=1010, Carry_Out=1
+3830 ns, Input A=1011, B=1111, Carry_In=1, Output Sum=1100, Carry_Out=1
+3840 ns, Input A=1100, B=0000, Carry_In=0, Output Sum=1100, Carry_Out=0
+3850 ns, Input A=1100, B=0000, Carry_In=1, Output Sum=1100, Carry_Out=0
+3860 ns, Input A=1100, B=0001, Carry_In=0, Output Sum=1101, Carry_Out=0
+3870 ns, Input A=1100, B=0001, Carry_In=1, Output Sum=1011, Carry_Out=0
+3880 ns, Input A=1100, B=0010, Carry_In=0, Output Sum=1110, Carry_Out=0
+3890 ns, Input A=1100, B=0010, Carry_In=1, Output Sum=1010, Carry_Out=0
+3900 ns, Input A=1100, B=0011, Carry_In=0, Output Sum=1111, Carry_Out=0
+3910 ns, Input A=1100, B=0011, Carry_In=1, Output Sum=1001, Carry_Out=0
+3920 ns, Input A=1100, B=0100, Carry_In=0, Output Sum=0000, Carry_Out=1
+3930 ns, Input A=1100, B=0100, Carry_In=1, Output Sum=1000, Carry_Out=0
+3940 ns, Input A=1100, B=0101, Carry_In=0, Output Sum=0001, Carry_Out=1
+3950 ns, Input A=1100, B=0101, Carry_In=1, Output Sum=0111, Carry_Out=0
+3960 ns, Input A=1100, B=0110, Carry_In=0, Output Sum=0010, Carry_Out=1
+3970 ns, Input A=1100, B=0110, Carry_In=1, Output Sum=0110, Carry_Out=0
+3980 ns, Input A=1100, B=0111, Carry_In=0, Output Sum=0011, Carry_Out=1
+3990 ns, Input A=1100, B=0111, Carry_In=1, Output Sum=0101, Carry_Out=0
+4000 ns, Input A=1100, B=1000, Carry_In=0, Output Sum=0100, Carry_Out=1
+4010 ns, Input A=1100, B=1000, Carry_In=1, Output Sum=0100, Carry_Out=0
+4020 ns, Input A=1100, B=1001, Carry_In=0, Output Sum=0101, Carry_Out=1
+4030 ns, Input A=1100, B=1001, Carry_In=1, Output Sum=0011, Carry_Out=0
+4040 ns, Input A=1100, B=1010, Carry_In=0, Output Sum=0110, Carry_Out=1
+4050 ns, Input A=1100, B=1010, Carry_In=1, Output Sum=0010, Carry_Out=0
+4060 ns, Input A=1100, B=1011, Carry_In=0, Output Sum=0111, Carry_Out=1
+4070 ns, Input A=1100, B=1011, Carry_In=1, Output Sum=0001, Carry_Out=0
+4080 ns, Input A=1100, B=1100, Carry_In=0, Output Sum=1000, Carry_Out=1
+4090 ns, Input A=1100, B=1100, Carry_In=1, Output Sum=0000, Carry_Out=0
+4100 ns, Input A=1100, B=1101, Carry_In=0, Output Sum=1001, Carry_Out=1
+4110 ns, Input A=1100, B=1101, Carry_In=1, Output Sum=1111, Carry_Out=1
+4120 ns, Input A=1100, B=1110, Carry_In=0, Output Sum=1010, Carry_Out=1
+4130 ns, Input A=1100, B=1110, Carry_In=1, Output Sum=1110, Carry_Out=1
+4140 ns, Input A=1100, B=1111, Carry_In=0, Output Sum=1011, Carry_Out=1
+4150 ns, Input A=1100, B=1111, Carry_In=1, Output Sum=1101, Carry_Out=1
+4160 ns, Input A=1101, B=0000, Carry_In=0, Output Sum=1101, Carry_Out=0
+4170 ns, Input A=1101, B=0000, Carry_In=1, Output Sum=1101, Carry_Out=0
+4180 ns, Input A=1101, B=0001, Carry_In=0, Output Sum=1110, Carry_Out=0
+4190 ns, Input A=1101, B=0001, Carry_In=1, Output Sum=1100, Carry_Out=0
+4200 ns, Input A=1101, B=0010, Carry_In=0, Output Sum=1111, Carry_Out=0
+4210 ns, Input A=1101, B=0010, Carry_In=1, Output Sum=1011, Carry_Out=0
+4220 ns, Input A=1101, B=0011, Carry_In=0, Output Sum=0000, Carry_Out=1
+4230 ns, Input A=1101, B=0011, Carry_In=1, Output Sum=1010, Carry_Out=0
+4240 ns, Input A=1101, B=0100, Carry_In=0, Output Sum=0001, Carry_Out=1
+4250 ns, Input A=1101, B=0100, Carry_In=1, Output Sum=1001, Carry_Out=0
+4260 ns, Input A=1101, B=0101, Carry_In=0, Output Sum=0010, Carry_Out=1
+4270 ns, Input A=1101, B=0101, Carry_In=1, Output Sum=1000, Carry_Out=0
+4280 ns, Input A=1101, B=0110, Carry_In=0, Output Sum=0011, Carry_Out=1
+4290 ns, Input A=1101, B=0110, Carry_In=1, Output Sum=0111, Carry_Out=0
+4300 ns, Input A=1101, B=0111, Carry_In=0, Output Sum=0100, Carry_Out=1
+4310 ns, Input A=1101, B=0111, Carry_In=1, Output Sum=0110, Carry_Out=0
+4320 ns, Input A=1101, B=1000, Carry_In=0, Output Sum=0101, Carry_Out=1
+4330 ns, Input A=1101, B=1000, Carry_In=1, Output Sum=0101, Carry_Out=0
+4340 ns, Input A=1101, B=1001, Carry_In=0, Output Sum=0110, Carry_Out=1
+4350 ns, Input A=1101, B=1001, Carry_In=1, Output Sum=0100, Carry_Out=0
+4360 ns, Input A=1101, B=1010, Carry_In=0, Output Sum=0111, Carry_Out=1
+4370 ns, Input A=1101, B=1010, Carry_In=1, Output Sum=0011, Carry_Out=0
+4380 ns, Input A=1101, B=1011, Carry_In=0, Output Sum=1000, Carry_Out=1
+4390 ns, Input A=1101, B=1011, Carry_In=1, Output Sum=0010, Carry_Out=0
+4400 ns, Input A=1101, B=1100, Carry_In=0, Output Sum=1001, Carry_Out=1
+4410 ns, Input A=1101, B=1100, Carry_In=1, Output Sum=0001, Carry_Out=0
+4420 ns, Input A=1101, B=1101, Carry_In=0, Output Sum=1010, Carry_Out=1
+4430 ns, Input A=1101, B=1101, Carry_In=1, Output Sum=0000, Carry_Out=0
+4440 ns, Input A=1101, B=1110, Carry_In=0, Output Sum=1011, Carry_Out=1
+4450 ns, Input A=1101, B=1110, Carry_In=1, Output Sum=1111, Carry_Out=1
+4460 ns, Input A=1101, B=1111, Carry_In=0, Output Sum=1100, Carry_Out=1
+4470 ns, Input A=1101, B=1111, Carry_In=1, Output Sum=1110, Carry_Out=1
+4480 ns, Input A=1110, B=0000, Carry_In=0, Output Sum=1110, Carry_Out=0
+4490 ns, Input A=1110, B=0000, Carry_In=1, Output Sum=1110, Carry_Out=0
+4500 ns, Input A=1110, B=0001, Carry_In=0, Output Sum=1111, Carry_Out=0
+4510 ns, Input A=1110, B=0001, Carry_In=1, Output Sum=1101, Carry_Out=0
+4520 ns, Input A=1110, B=0010, Carry_In=0, Output Sum=0000, Carry_Out=1
+4530 ns, Input A=1110, B=0010, Carry_In=1, Output Sum=1100, Carry_Out=0
+4540 ns, Input A=1110, B=0011, Carry_In=0, Output Sum=0001, Carry_Out=1
+4550 ns, Input A=1110, B=0011, Carry_In=1, Output Sum=1011, Carry_Out=0
+4560 ns, Input A=1110, B=0100, Carry_In=0, Output Sum=0010, Carry_Out=1
+4570 ns, Input A=1110, B=0100, Carry_In=1, Output Sum=1010, Carry_Out=0
+4580 ns, Input A=1110, B=0101, Carry_In=0, Output Sum=0011, Carry_Out=1
+4590 ns, Input A=1110, B=0101, Carry_In=1, Output Sum=1001, Carry_Out=0
+4600 ns, Input A=1110, B=0110, Carry_In=0, Output Sum=0100, Carry_Out=1
+4610 ns, Input A=1110, B=0110, Carry_In=1, Output Sum=1000, Carry_Out=0
+4620 ns, Input A=1110, B=0111, Carry_In=0, Output Sum=0101, Carry_Out=1
+4630 ns, Input A=1110, B=0111, Carry_In=1, Output Sum=0111, Carry_Out=0
+4640 ns, Input A=1110, B=1000, Carry_In=0, Output Sum=0110, Carry_Out=1
+4650 ns, Input A=1110, B=1000, Carry_In=1, Output Sum=0110, Carry_Out=0
+4660 ns, Input A=1110, B=1001, Carry_In=0, Output Sum=0111, Carry_Out=1
+4670 ns, Input A=1110, B=1001, Carry_In=1, Output Sum=0101, Carry_Out=0
+4680 ns, Input A=1110, B=1010, Carry_In=0, Output Sum=1000, Carry_Out=1
+4690 ns, Input A=1110, B=1010, Carry_In=1, Output Sum=0100, Carry_Out=0
+4700 ns, Input A=1110, B=1011, Carry_In=0, Output Sum=1001, Carry_Out=1
+4710 ns, Input A=1110, B=1011, Carry_In=1, Output Sum=0011, Carry_Out=0
+4720 ns, Input A=1110, B=1100, Carry_In=0, Output Sum=1010, Carry_Out=1
+4730 ns, Input A=1110, B=1100, Carry_In=1, Output Sum=0010, Carry_Out=0
+4740 ns, Input A=1110, B=1101, Carry_In=0, Output Sum=1011, Carry_Out=1
+4750 ns, Input A=1110, B=1101, Carry_In=1, Output Sum=0001, Carry_Out=0
+4760 ns, Input A=1110, B=1110, Carry_In=0, Output Sum=1100, Carry_Out=1
+4770 ns, Input A=1110, B=1110, Carry_In=1, Output Sum=0000, Carry_Out=0
+4780 ns, Input A=1110, B=1111, Carry_In=0, Output Sum=1101, Carry_Out=1
+4790 ns, Input A=1110, B=1111, Carry_In=1, Output Sum=1111, Carry_Out=1
+4800 ns, Input A=1111, B=0000, Carry_In=0, Output Sum=1111, Carry_Out=0
+4810 ns, Input A=1111, B=0000, Carry_In=1, Output Sum=1111, Carry_Out=0
+4820 ns, Input A=1111, B=0001, Carry_In=0, Output Sum=0000, Carry_Out=1
+4830 ns, Input A=1111, B=0001, Carry_In=1, Output Sum=1110, Carry_Out=0
+4840 ns, Input A=1111, B=0010, Carry_In=0, Output Sum=0001, Carry_Out=1
+4850 ns, Input A=1111, B=0010, Carry_In=1, Output Sum=1101, Carry_Out=0
+4860 ns, Input A=1111, B=0011, Carry_In=0, Output Sum=0010, Carry_Out=1
+4870 ns, Input A=1111, B=0011, Carry_In=1, Output Sum=1100, Carry_Out=0
+4880 ns, Input A=1111, B=0100, Carry_In=0, Output Sum=0011, Carry_Out=1
+4890 ns, Input A=1111, B=0100, Carry_In=1, Output Sum=1011, Carry_Out=0
+4900 ns, Input A=1111, B=0101, Carry_In=0, Output Sum=0100, Carry_Out=1
+4910 ns, Input A=1111, B=0101, Carry_In=1, Output Sum=1010, Carry_Out=0
+4920 ns, Input A=1111, B=0110, Carry_In=0, Output Sum=0101, Carry_Out=1
+4930 ns, Input A=1111, B=0110, Carry_In=1, Output Sum=1001, Carry_Out=0
+4940 ns, Input A=1111, B=0111, Carry_In=0, Output Sum=0110, Carry_Out=1
+4950 ns, Input A=1111, B=0111, Carry_In=1, Output Sum=1000, Carry_Out=0
+4960 ns, Input A=1111, B=1000, Carry_In=0, Output Sum=0111, Carry_Out=1
+4970 ns, Input A=1111, B=1000, Carry_In=1, Output Sum=0111, Carry_Out=0
+4980 ns, Input A=1111, B=1001, Carry_In=0, Output Sum=1000, Carry_Out=1
+4990 ns, Input A=1111, B=1001, Carry_In=1, Output Sum=0110, Carry_Out=0
+5000 ns, Input A=1111, B=1010, Carry_In=0, Output Sum=1001, Carry_Out=1
+5010 ns, Input A=1111, B=1010, Carry_In=1, Output Sum=0101, Carry_Out=0
+5020 ns, Input A=1111, B=1011, Carry_In=0, Output Sum=1010, Carry_Out=1
+5030 ns, Input A=1111, B=1011, Carry_In=1, Output Sum=0100, Carry_Out=0
+5040 ns, Input A=1111, B=1100, Carry_In=0, Output Sum=1011, Carry_Out=1
+5050 ns, Input A=1111, B=1100, Carry_In=1, Output Sum=0011, Carry_Out=0
+5060 ns, Input A=1111, B=1101, Carry_In=0, Output Sum=1100, Carry_Out=1
+5070 ns, Input A=1111, B=1101, Carry_In=1, Output Sum=0010, Carry_Out=0
+5080 ns, Input A=1111, B=1110, Carry_In=0, Output Sum=1101, Carry_Out=1
+5090 ns, Input A=1111, B=1110, Carry_In=1, Output Sum=0001, Carry_Out=0
+5100 ns, Input A=1111, B=1111, Carry_In=0, Output Sum=1110, Carry_Out=1
+5110 ns, Input A=1111, B=1111, Carry_In=1, Output Sum=0000, Carry_Out=0
+
+
 // 2:1 Multiplexer Results
  0 ns, Input in0=0, in1=0, sel=0, Output out=0
 10 ns, Input in0=0, in1=0, sel=1, Output out=0
