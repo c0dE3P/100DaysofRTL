@@ -1,4 +1,4 @@
-//Constraint to find out odd numbers less than 100
+/// Constraint to find out odd numbers less than 100
 class odd_number;
         randc int a;
         constraint a_range{a inside {[0:100]};}

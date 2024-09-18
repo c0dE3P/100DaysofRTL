@@ -50,3 +50,9 @@ Tools used:
 [[DAY 15](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2015)]: 4-bit Ring Counter using D Flip-flop
 
 [[DAY 16](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2016)]: 4-bit Even and Odd Parity Generator
+
+[[DAY 34](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2034)]: Constraint to find out even numbers less than 100
+
+[[DAY 35](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2035)]: Write SV constraint to generate two 8-bit random variables such that both contain exact five 1s and both are unique.
+
+[[DAY 36](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2036)]: Constraint to find out odd numbers less than 100

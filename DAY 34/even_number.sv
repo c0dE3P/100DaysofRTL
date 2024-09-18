@@ -1,4 +1,4 @@
-//Constraint to find out even numbers less than 100
+/// Constraint to find out even numbers less than 100
 class even;
         randc int a;
         constraint a_range{a inside {[0:100]};}
