@@ -56,3 +56,5 @@ Tools used:
 [[DAY 35](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2035)]: Write SV constraint to generate two 8-bit random variables such that both contain exact five 1s and both are unique.
 
 [[DAY 36](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2036)]: Constraint to find out odd numbers less than 100
+
+[[DAY 37](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2037)]: Constraint to find out perfect numbers less than 100
