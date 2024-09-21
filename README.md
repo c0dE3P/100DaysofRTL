@@ -60,3 +60,5 @@ Tools used:
 [[DAY 37](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2037)]: Constraint to find out perfect numbers less than 100
 
 [[DAY 38](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2038)]: Constraint to find Fibonacci series
+
+[[DAY 39](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2039)]: Constraint the pattern 122333444455555
