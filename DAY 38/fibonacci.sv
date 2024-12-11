@@ -3,7 +3,7 @@ class fibonacci;
         constraint a_size{a.size==10;}
         constraint a_content{foreach(a[i])
                                 if(i<2)
-                                        a[i]==1;
+                                        a[i]==i;
                                 else
                                         (a[i]==a[i-1]+a[i-2]);}
 endclass: fibonacci
