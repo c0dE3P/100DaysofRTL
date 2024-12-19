@@ -2646,3 +2646,4 @@ Author name	: Deep
 20450 ns, Input in0=1,in1=1,in2=1,in3=1,in4=1,in5=1,in6=1,in7=1,sel0=1,sel1=0,sel2=1, Output out=1
 20460 ns, Input in0=1,in1=1,in2=1,in3=1,in4=1,in5=1,in6=1,in7=1,sel0=1,sel1=1,sel2=0, Output out=1
 20470 ns, Input in0=1,in1=1,in2=1,in3=1,in4=1,in5=1,in6=1,in7=1,sel0=1,sel1=1,sel2=1, Output out=1
+

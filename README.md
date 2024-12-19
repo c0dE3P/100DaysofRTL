@@ -61,4 +61,10 @@ Tools used:
 
 [[DAY 38](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2038)]: Constraint to find Fibonacci series
 
-[[DAY 39](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2039)]: Constraint the pattern 122333444455555
+[[DAY 39](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2039)]: Constraint for the pattern 122333444455555
+
+[[DAY 40](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2040)]: Constraint for a pattern of numbers ending with 9 (0 19 29 39 ... 99)
+
+[[DAY 41](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2041)]: Constraint for finding numbers divisible by 5
+
+[[DAY 42](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2042)]: Constraint for palindrome
