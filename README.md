@@ -17,7 +17,7 @@ Tools used:
   
   - EDA Playground
 
-# VERILOG
+## Verilog
 
 [[DAY 01](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2001)]: Half Adder, Full Adder and Ripple Carry Adder.
 
@@ -50,6 +50,8 @@ Tools used:
 [[DAY 15](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2015)]: 4-bit Ring Counter using D Flip-flop
 
 [[DAY 16](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2016)]: 4-bit Even and Odd Parity Generator
+
+## SystemVerilog
 
 [[DAY 34](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2034)]: Constraint to find out even numbers less than 100
 
