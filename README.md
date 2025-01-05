@@ -51,22 +51,30 @@ Tools used:
 
 [[DAY 16](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2016)]: 4-bit Even and Odd Parity Generator
 
+[[DAY 17](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2017)]: Custom clock generator based on frequency and duty cycle
+
+[[DAY 18](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2018)]: BCD counter that displays time in 24-hr format with 1Hz input clock frequency
+
+[[DAY 19](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2019)]: Frequency Divide By N, where can be odd, even and fraction viz., 4.5
+
+[[DAY 20](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2020)]: BCD to Excess-3 code converter using 4 to 10 decoder with active high inputs and a minimum number of basic gate primitives
+
+[[DAY 21](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2021)]: Signal Detector Circuit
+
 ## SystemVerilog
 
-[[DAY 34](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2034)]: Constraint to find out even numbers less than 100
+[[DAY 41](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2041)]: Write SV constraint to generate two 8-bit random variables such that both contain exact five 1s and both are unique.
 
-[[DAY 35](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2035)]: Write SV constraint to generate two 8-bit random variables such that both contain exact five 1s and both are unique.
+[[DAY 42](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2042)]: Constraints to find out odd and even numbers less than 100 
 
-[[DAY 36](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2036)]: Constraint to find out odd numbers less than 100
+[[DAY 43](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2043)]: Constraint to find out perfect numbers less than 100
 
-[[DAY 37](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2037)]: Constraint to find out perfect numbers less than 100
+[[DAY 44](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2044)]: Constraint to find Fibonacci series
 
-[[DAY 38](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2038)]: Constraint to find Fibonacci series
+[[DAY 45](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2045)]: Constraint for the pattern 122333444455555
 
-[[DAY 39](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2039)]: Constraint for the pattern 122333444455555
+[[DAY 46](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2046)]: Constraint for a pattern of numbers ending with 9 (0 19 29 39 ... 99)
 
-[[DAY 40](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2040)]: Constraint for a pattern of numbers ending with 9 (0 19 29 39 ... 99)
+[[DAY 47](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2047)]: Constraint for finding numbers divisible by 5
 
-[[DAY 41](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2041)]: Constraint for finding numbers divisible by 5
-
-[[DAY 42](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2042)]: Constraint for palindrome
+[[DAY 48](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2048)]: Constraint for palindrome

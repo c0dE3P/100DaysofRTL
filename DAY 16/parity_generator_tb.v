@@ -6,7 +6,7 @@ This code is purely for educational purposes. If required, this code can be clon
 
 Filename	: parity_generator_tb.v
 
-Description	: Even and Odd Parity Generator
+Description	: Even and Odd Parity Generator Testbench Design
 
 Author Name	: Deep Kar Sarkar
 
