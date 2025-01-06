@@ -78,3 +78,7 @@ Tools used:
 [[DAY 47](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2047)]: Constraint for finding numbers divisible by 5
 
 [[DAY 48](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2048)]: Constraint for palindrome
+
+[[DAY 49](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2049)]: Function and Task in SV
+
+## SystemVerilog Assertions
