@@ -61,6 +61,8 @@ Tools used:
 
 [[DAY 21](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2021)]: Signal Detector Circuit
 
+[[DAY 22](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2022)]: Sequence Detector to detect 010110 using Mealy FSM
+
 ## SystemVerilog
 
 [[DAY 41](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2041)]: Write SV constraint to generate two 8-bit random variables such that both contain exact five 1s and both are unique.
@@ -79,6 +81,10 @@ Tools used:
 
 [[DAY 48](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2048)]: Constraint for palindrome
 
-[[DAY 49](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2049)]: Function and Task in SV
+[[DAY 49](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2049)]: Datatypes in SV - Dynamic Array, Queue and String
+
+[[DAY 50](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2050)]: Function and Task in SV
+
+[[DAY 51](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2051)]: Communication between 2 components using Mailbox
 
 ## SystemVerilog Assertions
