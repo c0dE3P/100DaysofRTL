@@ -63,6 +63,10 @@ Tools used:
 
 [[DAY 22](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2022)]: Sequence Detector to detect 010110 using Mealy FSM
 
+[[DAY 23](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2023)]: Write a code to conditionally instantiate a half adder module, half subtractor module ,2:1 MUX and 4:1 MUX module using Case generate block and verify it using a test bench. Half adder module, half subtractor module, 2:1 MUX and 4:1 MUX module need to be implemented.
+
+[[DAY 24](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2024)]: 32-bit Ripple Carry Adder using generate-for & 1-bit Full Adder
+
 ## SystemVerilog
 
 [[DAY 41](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2041)]: Write SV constraint to generate two 8-bit random variables such that both contain exact five 1s and both are unique.
@@ -85,6 +89,6 @@ Tools used:
 
 [[DAY 50](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2050)]: Function and Task in SV
 
-[[DAY 51](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2051)]: Communication between 2 components using Mailbox
+[[DAY 51](https://github.com/c0dE3P/100DaysofRTL/tree/main/DAY%2051)]: Communication between 2 components using Mailbox, Examples of Event and Semaphore
 
 ## SystemVerilog Assertions
